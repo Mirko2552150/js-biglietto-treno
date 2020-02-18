@@ -9,6 +9,8 @@
 
 // Variabili:
 
+var nomecognome = prompt("cognome nome cliente");
+
 var etaPasseggero = prompt("Qual'è la sua età");
 
 var kmPercorsi = prompt("Quanti Km vorrà percorrere");
@@ -30,11 +32,17 @@ var costoViaggioOver = (costoKmOver * kmPercorsi);
 
 if (etaPasseggero < 18) {
     console.log("costoViaggioUnder");
-    document.getElementById('primo').innerHTML= costoViaggioUnder;
+    document.getElementById('prezzo').innerHTML= costoViaggioUnder;
 } else if ((etaPasseggero >= 18) && (etaPasseggero < 65)) {
     console.log("costoViaggio");
-    document.getElementById('primo').innerHTML= costoViaggio;
+    document.getElementById('prezzo').innerHTML= costoViaggio;
 } else {
     console.log("costoViaggioOver");
-    document.getElementById('primo').innerHTML= costoViaggioOver;
+    document.getElementById('prezzo').innerHTML= costoViaggioOver;
 }
+
+document.getElementById('nem').innerHTML= nomecognome;
+
+document.getElementById('agecliente').innerHTML= etaPasseggero;
+
+document.getElementById('km').innerHTML= kmPercorsi;

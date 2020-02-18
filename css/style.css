@@ -5,6 +5,94 @@
 }
 
 body {
+    font-family: sans-serif;
+
+}
+
+.container {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.hdwallsource.com%2Fwp-content%2Fuploads%2F2016%2F01%2Fcute-train-station-background-38792-39680-hd-wallpapers.jpg&f=1&nofb=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box-biglietto {
+    width: 700px;
+    height: 350px;
+
+}
+
+.remuve {
+    width: 30%;
+    height: 100%;
+    border-right: 1px dotted black;
+    float: left;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fbackgroundcheckall.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fpapiro-background.jpg&f=1&nofb=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.fix {
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fbackgroundcheckall.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fpapiro-background.jpg&f=1&nofb=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.info-treno {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cognome-nome {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.eta {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.kilometri {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.costo {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.fix h4 {
+    color: red;
+    padding-left: 10px;
 }
