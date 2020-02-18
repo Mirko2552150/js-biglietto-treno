@@ -8,7 +8,6 @@
 // inserimento parametri
 
 // Variabili:
-
 var nomecognome = prompt("cognome nome cliente");
 
 var etaPasseggero = prompt("Qual'è la sua età");
